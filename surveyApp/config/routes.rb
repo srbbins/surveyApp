@@ -1,4 +1,7 @@
 SurveyApp::Application.routes.draw do
+  resources :surveys
+
+  get "survey_app_home/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
